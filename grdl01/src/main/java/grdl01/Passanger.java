@@ -1,5 +1,4 @@
 package grdl01;
-
 import java.util.Date;
 
 public class Passanger {
@@ -7,23 +6,19 @@ public class Passanger {
 	private String passangerName;
 
 	
+	
 	public Passanger() {
 		
 	}
 	
-	public Passanger(int passangerid, String passangerName) {
-		
+	public Passanger(int passangerid, String passangerName) {	
 		this.passangerid = passangerid;
 		this.passangerName = passangerName;
 	}
 
-
-
 	public int getPassangerid() {
-		return passangerid;
+		return passangerid;		
 	}
-	
-	
 
 	public void setPassangerid(int passangerid) {
 		this.passangerid = passangerid;
@@ -38,9 +33,6 @@ public class Passanger {
 	public void setPassangerName(String passangerName) {
 		this.passangerName = passangerName;
 	}
-	
-	
-	
 
 	@Override
 	public int hashCode() {
@@ -85,6 +77,8 @@ public class Passanger {
 		
 		return passangers;
 	}
+	
+	
 
 	@Override
 	public String toString() {
