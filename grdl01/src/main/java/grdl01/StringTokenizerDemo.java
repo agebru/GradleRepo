@@ -39,6 +39,7 @@ public class StringTokenizerDemo {
 	    // passangers.stream().forEach(System.out::println);
 	      
 	      names.stream().forEach(System.out::println);
+	      
 	       
 	       
 	  
