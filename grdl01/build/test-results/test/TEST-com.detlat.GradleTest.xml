@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.detlat.GradleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-09-05T19:30:25" hostname="XATLCAMP15089" time="5.436">
+  <properties/>
+  <testcase name="testGetPassangers" classname="com.detlat.GradleTest" time="4.312"/>
+  <testcase name="testFindPassanger" classname="com.detlat.GradleTest" time="1.124"/>
+  <system-out><![CDATA[[
+    {
+        "passangerid": 12,
+        "passangerName": "Jackson"
+    },
+    {
+        "passangerid": 13,
+        "passangerName": "Doe"
+    },
+    {
+        "passangerid": 14,
+        "passangerName": "Merry"
+    },
+    {
+        "passangerid": 15,
+        "passangerName": "Selam"
+    },
+    {
+        "passangerid": 21,
+        "passangerName": "Emebet"
+    }
+]
+[
+    {
+        "passangerid": 12,
+        "passangerName": "Jackson"
+    },
+    {
+        "passangerid": 13,
+        "passangerName": "Doe"
+    },
+    {
+        "passangerid": 14,
+        "passangerName": "Merry"
+    },
+    {
+        "passangerid": 15,
+        "passangerName": "Selam"
+    },
+    {
+        "passangerid": 21,
+        "passangerName": "Emebet"
+    }
+]
+Name received from Response ==>Merry
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
