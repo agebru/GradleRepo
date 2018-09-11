@@ -69,6 +69,21 @@ public class Passanger {
 			return false;
 		return true;
 	}
+	
+	public Passanger[] getPassangers() {
+		//Passanger[] passangers=new Passanger[5];
+		Passanger[] passangers= {
+				new Passanger(201,"Jack"),
+				new Passanger(203,"Doi"),
+				new Passanger(204,"Diana"),
+				new Passanger(205,"Selam"),
+				new Passanger(206,"Dagem"),
+				
+		};
+		
+		
+		return passangers;
+	}
 
 	@Override
 	public String toString() {
